@@ -3,6 +3,12 @@
   "displayName": "baserCMS Debug Toggle",
   "description": "baserCMS 4.x/5.xのdebugモードを切り替えるVSCode拡張機能",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuchigam1/basercms-debug-toggle"
+  },
+  "author": "fuchigam1",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.92.0"
   },
