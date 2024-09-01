@@ -13,12 +13,9 @@ baserCMS 4.x および 5.x のデバッグモードを切り替えるためのVS
 
 ## インストール方法
 
-1. Visual Studio Code を開く
-2. 拡張機能ビュー (`Ctrl+Shift+X`) を開く
-3. `baserCMS Debug Toggle` を検索
-4. 「インストール」をクリック
+- Visual Studio Code の拡張機能で `baserCMS Debug Toggle` を検索し、インストール
+- [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode) からインストール
 
-または、[Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode)から直接インストールできます。
 
 ## 使い方
 
@@ -31,18 +28,10 @@ baserCMS 4.x および 5.x のデバッグモードを切り替えるためのVS
 
 ![スクリーンショット](images/screenshot.png)
 
-## 要件
 
-- baserCMS 4.x または 5.x プロジェクト
+## その他
 
-## サポート
-
-- [GitHubのissuesページ](https://github.com/fuchigam1/basercms-debug-toggle/issues)で報告してください。
-
-## リリースノート
-
-詳細は [CHANGELOG](CHANGELOG.md) を参照してください。
-
-## ライセンス
-
-このプロジェクトはMITライセンスのもとでライセンスされています。詳細は [LICENSE](LICENSE) ファイルを参照してください。
+- リリースノート: [CHANGELOG](CHANGELOG.md)
+- 貢献ガイド: [CONTRIBUTING](.github/CONTRIBUTING.md)
+- サポート: [GitHub issues](https://github.com/fuchigam1/basercms-debug-toggle/issues)
+- ライセンス: [LICENSE](LICENSE)
