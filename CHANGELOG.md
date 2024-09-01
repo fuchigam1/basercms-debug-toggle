@@ -1,9 +1,12 @@
-# Change Log
+# 変更履歴
 
-All notable changes to the "basercms-debug-toggle" extension will be documented in this file.
+このプロジェクトの重要な変更は、このファイルに記録されます。
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.0.0] - 2024-09-01
 
-## [Unreleased]
-
-- Initial release
+- baserCMS Debug Toggle 拡張機能の初回リリース。
+- baserCMS 4.x および 5.x のサポート。
+- baserCMS 4.x のデバッグモードを `0`, `1`, `2` で切り替え。
+- baserCMS 5.x のデバッグモードを `true`, `false` で切り替え。
+- baserCMS バージョンの自動検出機能。
+- ステータスバーに現在のデバッグモードを表示する機能。

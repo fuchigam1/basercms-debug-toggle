@@ -1,71 +1,47 @@
-# basercms-debug-toggle README
+# baserCMS Debug Toggle
 
-This is the README for your extension "basercms-debug-toggle". After writing up a brief description, we recommend including the following sections.
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/fuchigam1.basercms-debug-toggle) ![License](https://img.shields.io/github/license/fuchigam1/basercms-debug-toggle)
 
-## Features
+baserCMS 4.x および 5.x のデバッグモードを切り替えるためのVSCode拡張機能です。
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## 機能
 
-For example if there is an image subfolder under your extension project workspace:
+- baserCMS 4.x のデバッグモードを `0`, `1`, `2` の間で切り替え可能
+- baserCMS 5.x のデバッグモードを `true` と `false` の間で切り替え可能
+- baserCMSのバージョンは自動で検出
+- 現在のデバッグモードをVSCodeのステータスバーに表示
 
-\!\[feature X\]\(images/feature-x.png\)
+## インストール方法
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Visual Studio Code を開く
+2. 拡張機能ビュー (`Ctrl+Shift+X`) を開く
+3. `baserCMS Debug Toggle` を検索
+4. 「インストール」をクリック
 
-## Requirements
+または、[Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode)から直接インストールできます。
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## 使い方
 
-## Extension Settings
+1. VSCodeでbaserCMSプロジェクトを開きます。
+2. ステータスバーに現在のデバッグモードが表示されます。
+3. ステータスバーのアイテムをクリックするか、コマンドパレット (`Ctrl+Shift+P`) から「Toggle baserCMS Debug Mode」を実行してデバッグモードを切り替えます。
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## スクリーンショット
 
-For example:
+![スクリーンショット](images/screenshot.png)
 
-This extension contributes the following settings:
+## 要件
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- baserCMS 4.x または 5.x プロジェクト
 
-## Known Issues
+## サポート
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- [GitHubのissuesページ](https://github.com/fuchigam1/basercms-debug-toggle/issues)で報告してください。
 
-## Release Notes
+## リリースノート
 
-Users appreciate release notes as you update your extension.
+詳細は [CHANGELOG](CHANGELOG.md) を参照してください。
 
-### 1.0.0
+## ライセンス
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+このプロジェクトはMITライセンスのもとでライセンスされています。詳細は [LICENSE](LICENSE) ファイルを参照してください。
